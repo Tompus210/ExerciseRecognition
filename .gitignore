@@ -1,11 +1,65 @@
-# Virtuelle Umgebung
-venv/
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
-.ipynb_checkpoints/
-.DS_Store
+*.py[cod]
+*$py.class
 
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# Python test cache
+.pytest_cache/
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Video files (do NOT track videos in git)
 videos/
 *.mp4
-*.mov
 *.avi
+*.mov
+*.mkv
+
+# macOS system files
+.DS_Store
+
+# PyCharm files
+.idea/
+
+# Others
+*.swp
+*~
+
+# Ignore environment variables files
+.env
+
