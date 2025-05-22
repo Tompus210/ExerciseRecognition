@@ -4,3 +4,8 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 .DS_Store
+
+videos/
+*.mp4
+*.mov
+*.avi
