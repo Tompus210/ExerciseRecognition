@@ -13,6 +13,9 @@ venv\Scripts\activate     # Windows
 pip install -r requirements.txt
 ```
 
+Download YOLOv11 Pose model:
+https://docs.ultralytics.com/de/tasks/pose/
+
 ## Video Dataset
 
 Training and evaluation videos used in this project are available at the following location:
