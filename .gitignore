@@ -1,3 +1,16 @@
+# Video files (to NOT track videos in git)
+videos/
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Output files and documents
+*.csv
+*.pdf
+*.docx
+*.xlsx
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -42,13 +55,6 @@ venv.bak/
 # Logs and databases
 *.log
 *.sqlite3
-
-# Video files (to NOT track videos in git)
-videos/
-*.mp4
-*.avi
-*.mov
-*.mkv
 
 # macOS system files
 .DS_Store
