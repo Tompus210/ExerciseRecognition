@@ -11,3 +11,10 @@ python -m venv venv
 source venv/bin/activate  # macOS/Linux
 venv\Scripts\activate     # Windows
 pip install -r requirements.txt
+```
+
+## Video Dataset
+
+Training and evaluation videos used in this project are available at the following location:
+
+[Access shared video folder (OneDrive)](https://mci4meat-my.sharepoint.com/:f:/g/personal/pt3331_mci4me_at/Elu0N5NN4KtIuBGZawRI4BUBPEyqMla_U_WJ1ntAXD8PAg?e=rRVECU)

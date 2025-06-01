@@ -43,7 +43,7 @@ venv.bak/
 *.log
 *.sqlite3
 
-# Video files (do NOT track videos in git)
+# Video files (to NOT track videos in git)
 videos/
 *.mp4
 *.avi
