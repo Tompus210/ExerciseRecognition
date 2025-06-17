@@ -1,4 +1,4 @@
-# Video files (to NOT track videos in git)
+# Video files (do NOT track videos in git)
 videos/
 *.mp4
 *.avi
@@ -10,6 +10,8 @@ videos/
 *.pdf
 *.docx
 *.xlsx
+~$*.docx
+~$*.xlsx
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -46,8 +48,22 @@ venv.bak/
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
+# Jupyter runtime
+*.nbconvert.ipynb
+
+# YOLO & Ultralytics output
+*.pt
+runs/
+
 # VS Code settings
 .vscode/
+
+# PyCharm files
+.idea/
+
+# macOS system files
+.DS_Store
+._*
 
 # Python test cache
 .pytest_cache/
@@ -56,16 +72,13 @@ venv.bak/
 *.log
 *.sqlite3
 
-# macOS system files
-.DS_Store
-
-# PyCharm files
-.idea/
-
-# Others
+# Temporary / swap files
 *.swp
 *~
 
-# Ignore environment variables files
+# Environment files
 .env
+
+# Archive folder
+archive/
 
